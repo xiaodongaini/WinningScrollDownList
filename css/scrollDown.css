@@ -1,0 +1,76 @@
+* {
+	margin: 0px;
+	padding: 0px;            /*  去掉所有标签的marign和padding的值  */
+}
+
+body{
+	font-family: 'Microsoft YaHei';
+	font-size: 20px;
+	font-weight: 550;
+}
+
+ul {
+	list-style: none;           /*  去掉ul标签默认的点样式  */
+}
+
+.clearfloat{
+	zoom:1;
+}
+.clearfloat:after{
+	display: block;
+	clear: both;
+	content:"";
+	visibility: hidden;
+	height: 0;
+}
+
+.f-left{
+	float: left;
+}
+
+#conent-box{
+	position: relative;
+	width:480px;
+	height: 350px;
+	margin: 50px auto 0;
+	border:2px solid #aaa;
+	padding:35px;
+	background: #ddd;
+}
+
+.list-box{
+	position: relative;
+	height: 330px;
+	overflow: hidden;
+}
+
+.list-box ul{
+	position: absolute;
+	top:-110px;
+}
+
+.list-box ul li{
+	height: 90px;
+	margin-bottom: 20px;
+}
+
+.list-box ul li img{
+	display: inline-block;
+	width:103px;
+	height: 88px;
+}
+
+.userInfo-box{
+	display: inline-block;
+	width:280px;
+	height:70px;
+	padding: 9px 10px;
+}
+
+.userInfo-box .userName{
+	margin-right: 20px;
+}
+
+.userInfo-box p{
+	margin-top: 20px;
+}
