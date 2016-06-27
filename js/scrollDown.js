@@ -1,12 +1,13 @@
 var timer; //定时器
 var speed = 40; //滚动速度
 var delay = 5000; //延迟时间
-var iLi= 110; //滚动的高度（长度）
+var iLi; //滚动的高度（长度）
 var itemArr = []; //用于展示的数组，有四个数据
 
 var oUl = document.getElementById("scrollUl");
 window.onload = function(){
 	initDefaultData();
+	iLi= document.getElementById("scrollUl").getElementsByTagName('li')[0].offsetHeight;
 	setTimeout("startScroll()",delay);
 }
 function startScroll(){

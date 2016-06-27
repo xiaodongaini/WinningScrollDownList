@@ -5,7 +5,6 @@
 
 body{
 	font-family: 'Microsoft YaHei';
-	font-size: 20px;
 	font-weight: 550;
 }
 
@@ -30,47 +29,47 @@ ul {
 
 #conent-box{
 	position: relative;
-	width:480px;
-	height: 350px;
-	margin: 50px auto 0;
-	border:2px solid #aaa;
-	padding:35px;
+	width:19rem;
+	height: 17.5rem;
+	margin: 2.5px auto 0;
+	border:0.1rem solid #aaa;
+	padding:1.75rem;
 	background: #ddd;
 }
 
 .list-box{
 	position: relative;
-	height: 330px;
+	height: 16.5rem;
 	overflow: hidden;
 }
 
 .list-box ul{
 	position: absolute;
-	top:-110px;
+	top:-5.5rem;
 }
 
 .list-box ul li{
-	height: 90px;
-	margin-bottom: 20px;
+	height: 4.5rem;
+	padding-bottom: 1rem;
 }
 
 .list-box ul li img{
 	display: inline-block;
-	width:103px;
-	height: 88px;
+	width:5rem;
+	height: 4.4rem;
 }
 
 .userInfo-box{
 	display: inline-block;
-	width:280px;
-	height:70px;
-	padding: 9px 10px;
+	width:13rem;
+	height:3.5rem;
+	padding: 0.45rem 0.5rem;
 }
 
 .userInfo-box .userName{
-	margin-right: 20px;
+	margin-right: 1rem;
 }
 
 .userInfo-box p{
-	margin-top: 20px;
+	margin-top: 1rem;
 }

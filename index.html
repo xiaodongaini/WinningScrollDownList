@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
 	<title>中奖列表滚动效果</title>
 	<link rel="stylesheet" href="css/scrollDown.css">
 </head>
@@ -14,6 +15,16 @@
 			</ul>
 		</div>
 	</div>
+	<script type="text/javascript">
+		var platWidth = document.documentElement.clientWidth;
+		console.log(platWidth);
+		if(platWidth > 500){
+			document.documentElement.style.fontSize = '20px';
+		}else{
+			document.documentElement.style.fontSize = document.documentElement.clientWidth / 24 + 'px';
+		}
+		
+	</script>
 	<script type="text/javascript" src="js/userData.js"></script>
 	<script type="text/javascript" src="js/scrollDown.js"></script>
 </body>
